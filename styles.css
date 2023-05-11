@@ -24,7 +24,7 @@ h1 {
 
 p {
   font-size: 2rem;
-  color: #33af37;
+  color: #6ba26d;
   font-family: 'Righteous', cursive;
 }
 
@@ -32,6 +32,30 @@ img {
   width: 80%;
 }
 
+.play_btn{
+  color: rgb(56, 61, 58);
+  background-color: #6ba26d;;
+  width: 200px;
+  height: 50px;
+  opacity: 5;
+  transition: transform 0.4s ease-in-out;
+  margin: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Righteous', cursive;
+  text-shadow: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.play_btn:hover{
+  transform: scale(1.2);
+
+}
+
+.play_btn:focus{
+  outline: none;
+}
 footer {
   margin-top: 5%;
   color: #EEEEEE;
